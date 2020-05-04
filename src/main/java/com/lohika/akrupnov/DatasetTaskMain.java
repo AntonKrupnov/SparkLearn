@@ -4,10 +4,9 @@ import org.apache.spark.api.java.function.FlatMapFunction;
 import org.apache.spark.sql.*;
 
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
-public class Main {
+public class DatasetTaskMain {
 
     public static void main(String[] args) {
         String topWordsFile = "/Users/akrupnov/IdeaProjects/SparkLearn/src/main/resources/top100words.txt";
